@@ -4,10 +4,10 @@ spring:
     username: postgres
     password: challanger
 
-jpa:
-  hibernate:
-    ddl-auto: update
-  database-platform: org.hibernate.dialect.PostgreSQLDialect
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 eureka:
   client:
